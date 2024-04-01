@@ -1,6 +1,7 @@
 import random
 import math
 from copy import deepcopy
+random.seed(11451401)
 def read_input_file(filename):
     with open(filename, 'r') as file:
         n = int(file.readline().strip())
